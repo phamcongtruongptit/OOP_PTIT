@@ -1,0 +1,17 @@
+có 2 cách để tạo luồng: 
+- kế thua tu lop Thread
+- implement tư interface Runable
+--> ca 2 cach deu phain ivey vao phuong thuc run
+Một lớp 
+sleep: dung lai.tự mình làm mình dừng laij
+join: dừng tất các luồng khác lại để mình ưu tiên mình chạy, có đối số là time thì nó sẽ được ưu tiên trong khoảng thời gian đó.
+*Lop luong khong ten. 
+Luong Daemon: nguoi ta luon luon sinh ra  1 luong chay ngam.  
+
+ĐỒng bộ: 
+* Điều kiện: cùng 1 nguồn và xảy ra đồng thời. 
+* 2 coư chế:
+- loại trừ lẫn nhau
+- cộng tác. Nếu có xung đột thì sẽ xét cơ chế ưu tiên, thằng chờ thằng đợi.
+CÓ 1 cách sy ô nai. Cả hàm và 1 khu  vực
+wait - notify phải nằm trong một phương thước Synchri...
